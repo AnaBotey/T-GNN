@@ -1,1 +1,7 @@
-# T-GNN
+# Grafo convolucional temporal para la predicción de tráfico
+
+La predicción del tráfico desempeña un papel importante en la mejora de la eficiencia del sistema de transporte y es de gran importancia para la planificaci ́on de rutas, la detección de puntos negros asociados con datos de accidentes o problemas de salud. Los datos de tráfico generan informaci ́on cada pocos minutos mediante sensores situados en diferentes puntos geogr ́aficos, lo que lleva a considerar una relación entre la dimensi ́on del espacio y el tiempo (modelos espacio-temporales). En estudios recientes, se ha producido un aumento de la investigaci ́on de modelos de inteligencia artificial aplicados al aprendizaje de la representación de grafos, un tipo de estructura de datos formada por un conjunto de objetos (nodos) y sus relaciones (aristas). Los algoritmos de aprendizaje profundo basados en grafos, son capaces de crear una estructura geom ́etrica m ́as compleja que las redes convolucionales y se ajustan a la topolog ́ıa de la red de carreteras de tráfico. En este trabajo se aplica un modelo novedoso basado en la uni ́on de capas convolucionales aplicadas a grafos para modelar la componente espacial y de capas recurrentes para modelar la parte temporal (T-GCN) obteniendo resultados satisfactorios. El lenguaje de programación empleado es python.
+
+En este repositirio se proporciona el código elaborado para el procesado de datos y la predicción del modelo T-GCN realizado con la librería StellarGraph de pyhon.
+
+
